@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # (Sem título)
 
 Este projeto é o controle de versão da minha monografia do curso de graduação em
@@ -26,3 +27,7 @@ Para compilar, depois ter instalado as dependências, basta rodar o comando
 
 Autor: Hugo Henriques Maia Vieira <hugomaiavieira@gmail.com>
 Orientador: Rodrigo Soares Manhães <rmanhaes@gmail.com>
+=======
+Monografia
+==========
+>>>>>>> 79c4790d649c1fb21b26f0b23f7f923b0dd4a62c
