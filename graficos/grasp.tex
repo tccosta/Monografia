@@ -1,0 +1,18 @@
+\begin{tabular}{c} \hline
+        \begin{lstlisting}[mathescape] 
+	${\bf procedimento}$ GRASP (f(.), g(.), N(.), GRASPmax, s)
+	$f^{*} \leftarrow \infty$;
+	para (iter = 1,2, ..., GRASPmax) faca
+		$\quad$Construcao(g(.), $\alpha$, s);
+		$\quad$BuscaLocal(f(.), N(.), s);
+		se (f(s) < $f^{*}$ entao
+			$\quad s^{*} \leftarrow s$;
+			$\quad f^{*} \leftarrow f(s)$;
+		fim se
+	fim para
+	s $\leftarrow s^{*}$;
+	retorne s;
+	fim GRASP
+	\end{lstlisting}\\
+\hline
+ \end{tabular}

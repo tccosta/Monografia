@@ -1,0 +1,123 @@
+
+@article{FEO_REZENDE,
+  author = "T. A. Feo and M. G. C. Resende",
+  year = "1995",
+  title = "Greedy randomized adaptive search procedures",
+  journal = "Global Optimization",
+  volume = "6",
+  pages = "109-133"
+}
+
+@book{BLAZEWICZ,
+  title = {Scheduling in Computer and Manufacturing Systems},
+  subtitle = {},
+  author = {BLAZEWICZ, J and ECKER, K.H. and SCHIMIDT, G. and WEGLARZ, J.},
+  publisher = {Spring},
+  year = 1994,
+  address = {Verlag}
+}
+
+
+@book{PINEDO,
+	title = {Theory, Algorithms and Systems},
+	edition = {2ª},
+	author = {Michael Pinedo},
+	publisher = {Prentice-Hall},
+	year = 2002,
+	address = {New Jersey}
+}
+
+@book{ROLDAO,
+  title = {Planejamento e Programação da Produção},
+  subtitle = {},
+  author = {ROLDÃO, Victor Siqueira},
+  publisher = {Monitor},
+  year = 1995,
+  address = {Lisboa}
+}
+
+
+@book{BAKER,
+  title = {Introduction to Sequencing and Scheduling},
+  year = 1974,
+  address = {New York},
+  publisher = {Wiley},
+  author = {Kenneth R. Baker and Dan Triesch}
+
+}
+@book{LEPAPE,
+  title = {Intelligent Scheduling},
+  subtitle = {Scheduling as Intelligent Control of Decision-Making and Constraint Propagation},
+  author = {Claude Le Pape},
+  publisher = { Morgan Kaufman},		
+  year = 1994,
+  address = {Lisboa},
+  chapter = {13}
+}
+
+@booklet{SOUZA,
+    author   = "Marcone Jamilson Freitas Souza",
+    title     = "Tópicos Especiais em Inteligência Artificial",
+    howpublished   = "Apostila",
+    address  = "Ouro Preto",
+    year      = "2001",
+    note     = "DECOM/ICEB/UFOP - Apostila",
+}
+
+@booklet{REIS,
+    author   = "Joaquim Reis",
+    title     = "Uma Introdução ao Scheduling",
+    howpublished   = "Relatório Interno",
+    address  = "Lisboa",
+    year      = "1996",
+    note     = "Departamento de Ciências e Tecnológias de Informação do ISCTE-DCTI",
+}
+
+@misc{CSN,
+  title = {Processo siderurgico - Fluxograma de Produção},
+  author = {Companhia siderurgica Nacional},
+  url = {http://www.csn.com.br},
+  urlaccessdate = {20/06/2012}
+}
+
+@misc{UFPR,
+  title = {O aço e sua obtenção},
+  author = {JUniversidade Federal da Paraíba},
+  year = 2012,
+  url = { http://www.cesec.ufpr.br/metalica/01/01-texto.htm},
+  urlaccessdate = {20/07/2012}
+}
+
+@misc{WIKI,
+  title = {Aciaria},
+  author = {Wikipedia},
+  year = 2011,
+  url = {http://pt.wikipedia.org/wiki/Aciaria},
+  urlaccessdate = {20/07/2012}
+}
+
+@misc{WIKIGANT,
+  title = {Gráfico de GANTT},
+  author = {Wikipedia},
+  year = 2012,
+  url = {http://pt.wikipedia.org/wiki/Diagrama$\ $de$\ $Gantt},
+  urlaccessdate = {20/06/2012}
+}
+			
+
+
+
+@monography{BDDRodrigo,
+  title = {Behaviour-Driven Development: Uma Abordagem Ágil para Engenharia de Software},
+  author = {Rodrigo Soares ManhÃes},
+  type = {Pós-graduação},
+  year = 2010,
+  address = {Vila Velha}
+}
+
+@mastersthesis{CUNHA,
+author = {CUNHA, C. R},
+title = {Metaheurística Híbrida GRASP e Busca Tabu aplicada ao problema de escalonamento de tarefas},
+school = {Universidade Federal da Paraíba},
+year = {2010}
+}

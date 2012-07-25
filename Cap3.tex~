@@ -1,0 +1,104 @@
+\chapter{O processo de fabricação do aço}
+Neste capitulo é descrito de forma resumido como é o processo de fabricação do aço, em especiaal o ambiente aciaria, e ainda é especificados os seus parametros para o problema de Job-Shop Scheduling
+\section{O processo}
+%\cite{UFPR} O aço é um produto siderurgico definido como liga metálica composta principalmente de ferro e pequenas quantidades de carbono. O processo siderurgico pode ser dividido em 4 grandes partes, que são descritas abaixo:
+\begin {enumerate}
+	\item Preparo das materias-primas (coqueira e sintetização)
+	\item Produção de gusa (alto-forno)
+	\item Produção de aço (aciaria)
+	\item conformação mecânica (laminação)
+\end{enumerate}
+
+\subsubsection{Preparo das materias-primas}
+As matérias-primas necessárias para a obetnção do aço são: minério de ferro e o carvão mineral. Ambos não são encontrados puros na natureza, sendo necessário então um preparo nas máterias-primas de modo a reduzir o consumo de energia e aumentar a eficiencia no processo.
+
+\subsubsection{Coqueira e sintetização}
+A coqueificação ocorre a uma temperatura de 1300ºC em ausência de ar durante um período de 18 horas, onde ocorre a liberação de substâncias voláteis. O produto resultante desta etapa, o coque, é um material poroso com elevada resistência mecânica, alto ponto de fusão e grande quantidade de carbono.
+
+Na sinterização, a preparação do minério de ferro é feita cuidando-se da granulometria, visto que os grãos mais finos são indesejáveis pois diminuem a permeabilidade do ar na combustão, comprometendo a queima. Para solucionar o problema, adicionam-se materiais fundentes (calcário, areia de sílica ou o próprio sínter) aos grão mais finos.
+Com a composição correta, estes elementos são levados ao forno onde a mistura é fundida. Em seguida, o material resultante é resfriado e britado até atingir a granulometria desejada (diâmetro médio de 5mm).
+O produto final deste processo é denominado de sínter.
+
+\subsubsection{Alto Forno}
+Esta parte do processo de fabricação do aço consiste na redução do minério de ferro, utilizando o coque metalúrgico e outros fundentes, que misturados com o minério de ferro são transformados em ferro gusa.A reação ocorre no equipamento denominado Alto Forno, e constitui uma reação exotérmica. Após a reação, o ferro gusa na forma líquida é transportado nos carros-torpedos (vagões revestidos com elemento refratário) para uma estação de dessulfuração, onde são reduzidos os teores de enxofre a níveis aceitáveis. Também são feitas análises da composição química da liga (carbono, silício, manganês, fósforo, enxofre) e a seguir o carro torpedo transporta o ferro gusa para a aciaria, onde será transformado em aço.
+
+\subsubsection{Aciaria}
+Na aciaria, o ferro gusa é transformado em aço através da injeção de oxigênio puro sob pressão no banho de gusa líquido, dentro de um conversor. A reação, constitui na redução da gusa através da combinação dos elementos de liga existentes (silício, manganês) com o oxigênio soprado, o que provoca uma grande elevação na temperatura, atingindo aproximadamente 1700ºC.
+Os gases resultantes do processo são queimados logo na saída do equipamento e a os demais resíduos indesejáveis são eliminados pela escória, que fica a superfície do metal.
+Após outros ajustes finos na composição do aço, este é transferido para a próxima etapa que constitui o lingotamento contínuo. 
+
+\subsubsection{Laminação}
+Posteriormente, os lingotes devem passar pelo processo de laminação, podendo ser a quente ou a frio, onde se transformarão em chapas através da diminuição da área da seção transversal.
+
+
+\section{O ambiente Aciaria}
+A Aciaria é local dentro de uma usina siderurgica onde existem máquinas e equipamentos voltados para o processo de transformação do ferro-gusa em diferentes tipos de aço. \cite{WIKI}
+
+A tranformação do ferro-gusa em aço envolve:
+\begin{itemize}
+\item A diminuição dos teores de carbono, silício, fósforo, enxofre e nitrogênio a níveis bastante baixos
+\item A adição de sucata ou minério de ferro para ajustar a temperatura do aço bruto
+\item O ajustes dos teores de carbono, manganês, elementos de liga e da temperatura no forno ou na panela de vazamento
+\end{itemize}
+
+O setor de aciaria compreende os convertedores (refino primário) e o refino secundário, em seguida o aço entra na fase de lingotamento. Este trabalho se limita ao Sequenciamento e Scheduling das corridas de aço apenas no setor de aciaria, ou seja, entre os processos de dessulfuração no carro torpedo e o lingotamento contínuo.
+
+A origem dos jobs (aços) no sistema é o setor de alto-forno, através dos carros torpedos e o destino é o setor de conformação mecânica, mais precisamente o lingotamento contínuo. O algoritmo irá encontrar a melhor seqüência do jobs em cada “máquina” em função do objetivo predefinido, ou seja, a seqüência que minimiza o tempo de fabricação de
+todos os aços a serem produzidos.
+
+O ambiente de aciaria usado nesse trabalho é apenas ilustrativo, a finalidade é fornecer o cenário para o sequenciamento da produção, ou seja, os parâmetros necessários para a resolução Problema de Job-Shop Scheduling.
+
+A aciaria proposta é composta pelos seguintes recursos: Convertedores e Refino Secundário
+
+\subsubsection{Convertedores}
+O convertedor é um tipo de forno revestido com tijolos refratários que transforma o ferro usa e sucata em aço. Uma lança sopra oxigênio em alta pressão para o interior do forno produzindo reações químicas que separam as impurezas, como os gases e a escória. No convertedor ocorro o processo chamado refino primário.\cite{WIKI}
+
+\begin{figure}[H]
+\begin{center}
+  \begin{tabular}{|c|c|c|}
+    \hline
+    {\bf Convertedores} & {\bf Capacidade de produção} & {\bf Tempo médio por corrida} \\
+    $\quad$ & (toneladas/corrida)        &    (minutos) \\ \hline
+    CV-1 & 300 & 42 \\ \hline
+    CV-2 & 400 & 40 \\ \hline
+    CV-3 & 500 & 38 \\
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Capacidade dos convertedores}
+\end{figure}
+
+\subsubsection{Refino Secundário}
+Para alcançar determinadas propriedades, o aço passa por uma etapa chamada refino secundário, onde são feitas correções em sua composição química e sua temperatura, geralmente essas correções são feitas em um forno panela.
+
+
+\begin{figure}[H]
+\begin{center}
+  \begin{tabular}{|c|c|c|}
+    \hline
+    {\bf Fornos Panelas} & {\bf Capacidade de produção} & {\bf Tempo médio por corrida} \\
+    $\quad$ & (toneladas/corrida)        &    (minutos) \\ \hline
+    RH & 500 & 12 a 50 \\ \hline
+   IRUT & 500 & 12 a 50 \\ \hline
+    
+  \end{tabular}
+\end{center}
+\caption{Capacidade dos convertedores}
+\end{figure}
+
+%\begin{center}
+%\begin{tabular}{|r|c|}
+%\hline
+%{\bf Convertedores } & {\bf Capacidade de Produção(toneladas/corrida)}  \\
+%lkjsklasj \\
+%\hline
+%\end{tabular}
+%\end{center}
+
+
+
+
+\section{Parâmetros do Problema de Job-Shop Scheduling}
+
+
+

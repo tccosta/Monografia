@@ -1,0 +1,643 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdftex 2012.3.15)  15 MAR 2012 23:00
+entering extended mode
+ %&-line parsing enabled.
+**neuronio.tex
+(./neuronio.tex
+! Undefined control sequence.
+l.7 \scalebox
+             {1} % Change this value to rescale the drawing.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 \begin
+          {pspicture}(0,-2.1)(11.3359375,2.1)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 \psellipse
+               [linewidth=0.04,dimen=outer](3.316875,1.6)(0.5,0.5)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 \psline
+            [linewidth=0.04cm,dotsize=0.07055555cm 2.0,arrowsize=0.05291667c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.12 \psline
+            [linewidth=0.04,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrow...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.13 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 \rput
+          (1.3982812,1.605){$ x_1 $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.15 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.16 \rput
+          (3.3382812,1.605){$ w_{k1} $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17 \psellipse
+               [linewidth=0.04,dimen=outer](3.316875,0.44)(0.5,0.5)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 \psline
+            [linewidth=0.04cm,dotsize=0.07055555cm 2.0,arrowsize=0.05291667c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.19 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.20 \rput
+          (1.3982812,0.445){$ x_1 $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.21 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.22 \rput
+          (3.3382812,0.445){$ w_{k1} $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.23 \psline
+            [linewidth=0.04,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrow...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24 \psellipse
+               [linewidth=0.04,dimen=outer](3.296875,-1.6)(0.5,0.5)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.25 \psline
+            [linewidth=0.04cm,dotsize=0.07055555cm 2.0,arrowsize=0.05291667c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.26 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.27 \rput
+          (1.3782812,-1.595){$ x_1 $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.28 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.29 \rput
+          (3.3182812,-1.595){$ w_{k1} $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.30 \psline
+            [linewidth=0.04,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrow...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.31 \psdots
+            [dotsize=0.08](1.416875,-0.3)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 \psdots
+            [dotsize=0.08](1.416875,-0.5)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.33 \psdots
+            [dotsize=0.08](1.416875,-0.72)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.34 \psdots
+            [dotsize=0.08](3.316875,-0.3)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.35 \psdots
+            [dotsize=0.08](3.316875,-0.5)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.36 \psdots
+            [dotsize=0.08](3.316875,-0.72)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37 \rput
+          {-90.0}(6.196875,6.136875){\pstriangle[linewidth=0.04,dimen=outer]...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.37 \rput{-90.0}(6.196875,6.136875){\pstriangle
+                                                [linewidth=0.04,dimen=outer]...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.38 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.39 \rput
+          (5.7482815,-0.035){$ \sum $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.40 \psline
+            [linewidth=0.04cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.41 \psframe
+             [linewidth=0.04,dimen=outer](8.716875,0.48)(7.756875,-0.5)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.42 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.43 \rput
+          (8.268281,0.005){$ \varphi(.) $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.44 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.45 \rput
+          (7.3082814,0.205){$ v_k $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.46 \psline
+            [linewidth=0.04cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.47 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.48 \rput
+          (9.688281,0.005){$ y_k $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.49 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.50 \rput
+          {-270.0}(0.17,-0.0853125){\rput(0.10515625,0.025){Sinais de entrada}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.50 \rput{-270.0}(0.17,-0.0853125){\rput
+                                         (0.10515625,0.025){Sinais de entrada}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.51 \usefont
+             {T1}{ptm}{m}{n}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.52 \rput
+          (10.895156,-0.015){SaÃ­da}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ­ in font cmr10!
+
+Overfull \hbox (118.74644pt too wide) in paragraph at lines 7--53
+[]\tenrm 1  pspicture(0,-2.1)(11.3359375,2.1) [linewidth=0.04,dimen=outer](3.31
+6875,1.6)(0.5,0.5) [linewidth=0.04cm,dotsize=0.07055555cm|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm 1
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm p
+.etc.
+
+
+Overfull \hbox (134.24646pt too wide) in paragraph at lines 7--53
+\tenrm 2.0,ar-row-size=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]o->(1.71
+6875,1.6)(2.816875,1.6) [linewidth=0.04,arrowsize=0.05291667cm|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 2
+.\tenrm .
+.\tenrm 0
+.\tenrm ,
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (30.89217pt too wide) in paragraph at lines 7--53
+\tenrm 2.0,arrowlength=1.4,arrowinset=0.4]->(3.796875,1.58)(4.416875,1.58)(5.29
+6875,0.38) T1ptmmn (1.3982812,1.605)$\teni x[]$|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 2
+.\tenrm .
+.\tenrm 0
+.\tenrm ,
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (89.72856pt too wide) in paragraph at lines 7--53
+\tenrm T1ptmmn (3.3382812,1.605)$\teni w[]$ \tenrm [linewidth=0.04,dimen=outer]
+(3.316875,0.44)(0.5,0.5) [linewidth=0.04cm,dotsize=0.07055555cm|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm T
+.\tenrm 1
+.\tenrm p
+.\tenrm t
+.\tenrm m
+.etc.
+
+
+Overfull \hbox (7.74619pt too wide) in paragraph at lines 7--53
+\tenrm 2.0,ar-row-size=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]o->(1.71
+6875,0.44)(2.816875,0.44) T1ptmmn|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 2
+.\tenrm .
+.\tenrm 0
+.\tenrm ,
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (104.84654pt too wide) in paragraph at lines 7--53
+\tenrm (1.3982812,0.445)$\teni x[]$ \tenrm T1ptmmn (3.3382812,0.445)$\teni w[]$
+ \tenrm [linewidth=0.04,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0
+.4]-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm (
+.\tenrm 1
+.\tenrm .
+.\tenrm 3
+.\tenrm 9
+.etc.
+
+
+Overfull \hbox (146.16331pt too wide) in paragraph at lines 7--53
+\tenrm >(3.796875,0.4)(4.576875,0.38)(5.296875,-0.1) [linewidth=0.04,dimen=oute
+r](3.296875,-1.6)(0.5,0.5) [linewidth=0.04cm,dotsize=0.07055555cm|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm >
+.\tenrm (
+.\tenrm 3
+.\tenrm .
+.\tenrm 7
+.etc.
+
+
+Overfull \hbox (4.41281pt too wide) in paragraph at lines 7--53
+\tenrm 2.0,ar-row-size=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]o->(1.69
+6875,-1.6)(2.796875,-1.6) T1ptmmn|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 2
+.\tenrm .
+.\tenrm 0
+.\tenrm ,
+.\tenrm a
+.etc.
+
+
+Overfull \hbox (111.5132pt too wide) in paragraph at lines 7--53
+\tenrm (1.3782812,-1.595)$\teni x[]$ \tenrm T1ptmmn (3.3182812,-1.595)$\teni w[
+]$ \tenrm [linewidth=0.04,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset
+=0.4]-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm (
+.\tenrm 1
+.\tenrm .
+.\tenrm 3
+.\tenrm 7
+.etc.
+
+
+Overfull \hbox (100.13536pt too wide) in paragraph at lines 7--53
+\tenrm >(3.756875,-1.6)(4.696875,-1.6)(5.276875,-0.52) [dotsize=0.08](1.416875,
+-0.3) [dotsize=0.08](1.416875,-0.5) [dotsize=0.08](1.416875,-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm >
+.\tenrm (
+.\tenrm 3
+.\tenrm .
+.\tenrm 7
+.etc.
+
+
+Overfull \hbox (229.33014pt too wide) in paragraph at lines 7--53
+\tenrm 0.72) [dotsize=0.08](3.316875,-0.3) [dotsize=0.08](3.316875,-0.5) [dotsi
+ze=0.08](3.316875,-0.72) -90.0(6.196875,6.136875)[linewidth=0.04,dimen=outer](6
+.166875,-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm 0
+.\tenrm .
+.\tenrm 7
+.\tenrm 2
+.\tenrm )
+.etc.
+
+
+Overfull \hbox (96.91304pt too wide) in paragraph at lines 7--53
+\tenrm 0.92)(2.14,1.78) T1ptmmn (5.7482815,-0.035)$[]$ [linewidth=0.04cm,arrows
+ize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]-|
+
+\hbox(7.50006+2.50006)x469.75499, glue set - 1.0
+.\tenrm 0
+.\tenrm .
+.\tenrm 9
+.\tenrm 2
+.\tenrm )
+.etc.
+
+
+Overfull \hbox (74.87148pt too wide) in paragraph at lines 7--53
+\tenrm >(7.016875,-0.02)(7.756875,-0.02) [linewidth=0.04,dimen=outer](8.716875,
+0.48)(7.756875,-0.5) T1ptmmn (8.268281,0.005)$\teni '\tenrm (\teni :\tenrm )$|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm >
+.\tenrm (
+.\tenrm 7
+.\tenrm .
+.\tenrm 0
+.etc.
+
+
+Overfull \hbox (22.79132pt too wide) in paragraph at lines 7--53
+\tenrm T1ptmmn (7.3082814,0.205)$\teni v[]$ \tenrm [linewidth=0.04cm,arrowsize=
+0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm T
+.\tenrm 1
+.\tenrm p
+.\tenrm t
+.\tenrm m
+.etc.
+
+
+Overfull \hbox (42.06938pt too wide) in paragraph at lines 7--53
+\tenrm >(8.696875,0.0)(9.436875,0.0) T1ptmmn (9.688281,0.005)$\teni y[]$ \tenrm
+ T1ptmmn -270.0(0.17,-0.0853125)(0.10515625,0.025)Sinais|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm >
+.\tenrm (
+.\tenrm 8
+.\tenrm .
+.\tenrm 6
+.etc.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 8 ({)
+### bottom level</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on neuronio.pdf (1 page, 50733 bytes).
+PDF statistics:
+ 26 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
