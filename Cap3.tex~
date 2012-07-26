@@ -1,7 +1,7 @@
 \chapter{O processo de fabricação do aço}
 Neste capitulo é descrito de forma resumido como é o processo de fabricação do aço, em especiaal o ambiente aciaria, e ainda é especificados os seus parametros para o problema de Job-Shop Scheduling
 \section{O processo}
-%\cite{UFPR} O aço é um produto siderurgico definido como liga metálica composta principalmente de ferro e pequenas quantidades de carbono. O processo siderurgico pode ser dividido em 4 grandes partes, que são descritas abaixo:
+\cite{UFPR} O aço é um produto siderurgico definido como liga metálica composta principalmente de ferro e pequenas quantidades de carbono. O processo siderurgico pode ser dividido em 4 grandes partes, que são descritas abaixo:
 \begin {enumerate}
 	\item Preparo das materias-primas (coqueira e sintetização)
 	\item Produção de gusa (alto-forno)
@@ -83,22 +83,37 @@ Para alcançar determinadas propriedades, o aço passa por uma etapa chamada ref
     
   \end{tabular}
 \end{center}
-\caption{Capacidade dos convertedores}
+\caption{Capacidade dos fornos panela}
 \end{figure}
 
+
+\section{Parâmetros para o  problema de Job-Shop Scheduling}
+Neste seção será definido os parâmetros que envolvem o problema de {\it Job-Shop Scheduling}, ou seja, a descrição das máquinas e dos {\it jobs}, definição de suas rotas e seus tempo de processamento em cada máquina. O parâmetro de otimização  utlizado será a minimização do {\it makespan}.
+
+Os parâmetros necessários para a resolução do {\it Job-Shop Scheduling} são:
+\begin{itemize}
+\item {Jobs} : Os {\it jobs} nesse problema em particular é o aço a ser produzido. Nas siderurugia, de modo geral, é a capacidade de um convertedor que define a dimensão de um lote de produção em cada ciclo de tratamento de aços em aciaria.
+
+\item {Recursos} : Descrição das características e quantidades de maquinas no sistema.
+
+\item{Sequencia das máquinas}: A rota de produção é definida pela sequencia das máquinas no sistema, isto é, a ordem das máquinas nas quais os diversos tipos de aço irão ser processados. Uma caracterísitca do 
+problema de {\it Job-shop Scheduling} é que cada tipo de aço possua sua rota de produção definida.
+
+\item{Tempo de processamento} : Cada {\it job} (aço) possui um determinado tempo de fabricação predeterminado, esse tempo se dá em funcão do tipo de máquina em que é processado, caracterísitcas físicas e químicas do aço, volume de produção, entre outras restrições.
+
+\end{itemize}
+
+A figura \ref{params_prob} abaixo traz uma tabela com os parâmetros que serão utilizados para resolução do problema de {\it Job-Shop Scheduling} em um abiente de aciaria.
+
+%\begin{figure}[h!]
 %\begin{center}
-%\begin{tabular}{|r|c|}
-%\hline
-%{\bf Convertedores } & {\bf Capacidade de Produção(toneladas/corrida)}  \\
-%lkjsklasj \\
-%\hline
-%\end{tabular}
+%  \begin{tabular}{|c|c|c|c|c|}
+%    \hline
+%{\bf Tipos de aço
+%  \end{tabular}
 %\end{center}
-
-
-
-
-\section{Parâmetros do Problema de Job-Shop Scheduling}
-
+%\caption{Parâmetros para o problema de {\it Job-Shop Scheduling em aciaria}}
+%\label{params_prob}
+%\end{figure}
 
 
