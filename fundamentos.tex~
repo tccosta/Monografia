@@ -74,10 +74,6 @@ sujeito\ a$
          y_{ij}\geq 0 \qquad \qquad \quad \qquad \qquad \qquad \qquad \qquad (4)
 \end{eqnarray*}
 
-$\forall (i,j) \rightarrow (k,j) \in A$
-$\forall (i,j) \in N$
-$\qquad\forall(i,1) e (i,j) = 1, ..., m$
-
 onde,
 \begin{itemize}
 

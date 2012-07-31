@@ -7,7 +7,7 @@
 	normaltoc,
 	pnumplain,
 	notimes
-	 capchap,
+%	 capchap,
 ]{abnt}
 \usepackage{verbatim}   % para algoritmos
 \usepackage[utf8]{inputenc}
