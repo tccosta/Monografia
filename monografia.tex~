@@ -96,7 +96,8 @@ Aqui entra o resumo do meu trabalho que será a última coisa a ser feita.
 \include{fundamentos}
 \include{grasp}
 \include{fabricacao_aco}
-\include{modelagem do problema}
+\include{modelagem_problema}
+
 
 %--------------------------------- Bibliografia --------------------------------
 

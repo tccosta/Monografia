@@ -99,8 +99,8 @@ A figura \ref{local_search_phase} descreve o pseudo-código de um algoritmo bás
 %	\label{local_search_phase}
 %\end{figure}
 
-\begin{figure}[H]
-    \begin{center}
+%\begin{figure}[H]
+%    \begin{center}
        \begin{tabular}{c} \hline
         \begin{lstlisting}[mathescape] 
 		$\textit{procedimento}$ BuscaLocal (f(.), N(.), s)
@@ -113,14 +113,14 @@ A figura \ref{local_search_phase} descreve o pseudo-código de um algoritmo bás
 			${\it fimse}$
 			V = {s' $\in$ N(s) | f(s') < f(s)}
 		${\it fim enquanto}$
-		s $\leftarrow s^*}
+		s $\leftarrow s^*$
 		${\it retorne}$ s
 		${\it fim}$ BuscaLocal
 	\end{lstlisting}\\
 	\hline
  	\end{tabular}
-     \end{center}
-\caption{pseudo-código da fase de busca local da heurística GRASP}
-\label{local_search_phase}
- \end{figure}
+%     \end{center}
+%\caption{pseudo-código da fase de busca local da heurística GRASP}
+%\label{local_search_phase}
+% \end{figure}
 
