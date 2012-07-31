@@ -105,6 +105,8 @@ problema de {\it Job-shop Scheduling} é que cada tipo de aço possua sua rota d
 
 A figura \ref{params_prob} abaixo traz uma tabela com os parâmetros que serão utilizados para resolução do problema de {\it Job-Shop Scheduling} em um abiente de aciaria.
 
+\textcolor{red}{COLOCAR AQUI A TABELA COM OS DADOS DO PROBLEMA}.
+
 %\begin{figure}[h!]
 %\begin{center}
 %  \begin{tabular}{|c|c|c|c|c|}

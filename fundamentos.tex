@@ -1,9 +1,7 @@
-\chapter{Fundamentos teóricos}
+\chapter{Fundamentos teóricos}\label{fundamentos}
 
 Este capítulo descreve os principais elementos teóricos utilizados no
-desenvolvimento desta pesquisa. A seção \ref{sec:int_seq_tarefas} descreve um pouco da introdução histŕorica 
-do problema de sequenciamento de tarefas, a seção \ref{sec:def_formal}
-
+desenvolvimento desta pesquisa, é descrito neste capítulo um pouco da introdução histórica do problema de sequenciamento de tarefas.
 \section{Introdução ao Sequenciamento de Tarefas}\label{sec:int_seq_tarefas}
 
 A necessidade de técnicas de gestão das tarefas, tanto nos serviços quanto nas indústrias é cada vez mais crítica. Segundo \citeonline{ROLDAO}: O planejamento de operações é uma área em que se têm obtido mais progresso e cuja utilização traz mais vantagens ao gestor. O objetivo de um planejamento das operações em uma indústria, por exemplo, é gerar um comportamento coordenado, entre maquinas e tarefas, onde o resultado é satisfeito em um menor espaço de tempo e com baixo custo.
@@ -56,13 +54,13 @@ O Job Shop Scheduling é composto por um conjunto de Jobs (J = $\{j_1, j_2, ...,
 
 \item [Job-Shop ($J_{m})$]: O $J_m$ representa um Job Shop com {\it m} máquinas, onde cada job tem sua rota predeterminada a seguir.
 
-\item [Tempo de Processamento ($P_{ij}$)] O tempo de processamento $P_{ij}$ representra o tempo de processamento do Job {\it j} na máquina {\it i}. O subscrito {\it i} pode ser omitido quando o tempo de processamento do Job {\it j} não depende da máquina ou se ele é processado por apenas uma máquina.
+\item [Tempo de Processamento ($P_{ij}$)]: O tempo de processamento $P_{ij}$ representra o tempo de processamento do Job {\it j} na máquina {\it i}. O subscrito {\it i} pode ser omitido quando o tempo de processamento do Job {\it j} não depende da máquina ou se ele é processado por apenas uma máquina.
 
-\item [Data de início ($r_j$)] A data de ińicio do Job {\it j}, representado pela letra $r_j$, é o tempo (data) que o Job chega no sistema, indica o tempo que o job {\it j} pode começar a ser processado
+\item [Data de início ($r_j$)]: A data de ińicio do Job {\it j}, representado pela letra $r_j$, é o tempo (data) que o Job chega no sistema, indica o tempo que o job {\it j} pode começar a ser processado
 
-\item [Data de vencimento ($d_j$)] A data de vencimento $d_j$ do Job {\it j} representa a data de finalização do processamento do Job {\it j}, é o quem é chamado de tempo de pronto.
+\item [Data de vencimento ($d_j$)]: A data de vencimento $d_j$ do Job {\it j} representa a data de finalização do processamento do Job {\it j}, é o quem é chamado de tempo de pronto.
 
-\item [Makespan ($C_{max}$)] O Makespan pode ser chamado de tempo de fabricação, é tempo final de processamento de todos os jobs, e é definido como max ($C_1$, … , $C_n$).
+\item [Makespan ($C_{max}$)]: O Makespan pode ser chamado de tempo de fabricação, é tempo final de processamento de todos os jobs, e é definido como max ($C_1$, … , $C_n$).
 \end{description}
 
 Para o caso de Makespan mínimo ( $J_m \parallel C_{max}$ ) a seguinte programação matemática pode ser utilizada.
@@ -70,24 +68,20 @@ Para o caso de Makespan mínimo ( $J_m \parallel C_{max}$ ) a seguinte programa�
 $\\Minimize\ C_{max}\\ \\
 sujeito\ a$
 \begin{eqnarray*}
-        y_{kj}-y_{ij}\geq p_{ij}   \quad (1)\\
-        C_{max} – y_{ij}\geq p_{ij} \quad (2)\\
-        y_{ij}-y_{i1}\geq p_{i1}\quad ou \quad y_{i1}-y_{ij}\geq p_{ij} \quad (3) \\
-         y_{ij}\geq 0 \qquad (4)
+        y_{kj}-y_{ij}\geq p_{ij} \qquad \qquad \quad \forall (i,j) \rightarrow (k,j) \in A  \quad (1)\\
+        C_{max} – y_{ij}\geq p_{ij} \qquad \qquad \qquad \qquad \quad \forall (i,j) \in N \quad (2)\\
+        y_{ij}-y_{i1}\geq p_{i1}\quad ou \quad y_{i1}-y_{ij}\geq p_{ij} \qquad \qquad\forall(i,1) e (i,j) = 1, ..., m \quad (3) \\
+         y_{ij}\geq 0 \qquad \qquad \quad \qquad \qquad \qquad \qquad \qquad (4)
 \end{eqnarray*}
-
-%\forall (i,j) $\rightarrow$ (k,j) \in A
-%\forall (i,j) $\in$ N 
-%\qquad\forall(i,1) e (i,j) = 1, ..., m
 
 onde,
 \begin{itemize}
 
 \item $y_{ij}$ é o tempo inical de processamento do Job {\it j} na máquina {\it i};
 \item $p_{ij}$ é a duração do job {\it j} na máquina {\it i}
-%\item N é o conjunto de todas as operações (i,j)
-%\item A é conjunto de todas as restrições de rotas (i,j) $\rightarrow$ (k,j)
-%\item m é o número total de máquinas
+\item N é o conjunto de todas as operações (i,j)
+\item A é conjunto de todas as restrições de rotas (i,j) $\rightarrow$ (k,j)
+\item m é o número total de máquinas
 
 \end{itemize}
 
@@ -145,83 +139,12 @@ Os algoritmos de solução podem ser classificados em duas classes:  Modelos mat
 \item \textbf{Modelos Heurísticos}: Trata-se de modelos baseados em regras pratica de escalonamento que enfatiza a obtenção de “boas” soluções, próxima da solução ótima. Os modelos heurísticos são caracterizados por obter uma solução aproximada em tempos de computação viáveis. 
 \end{itemize}
 
-\section{Heurística GRASP}
-GRASP - {\it Greedy Randomized Adaptive Search Procedure}, ou procedimento de busca adaptativa gulosa e aleatória, é uma técnica iterativa proposta por \citeonline{FEO_REZENDE} que consiste numa fase de construção de uma solução viável, na qual uma solução é gerada, elemento a elemento, e de uma fase de busca local, na qual se procura melhorar de forma iterativa a qualidade da solução encontrada anteriormente, a fase de busca local trabalha de forma iterativa através de sucessivas substituições da solução atual por uma melhor de sua vizinhança, quando não há mais soluções melhores essa fase é terminada.
-
-Na figura \ref{grasp}, encontra-se um pseudocógico genérico da heurística GRASP, os parâmetros que precisam ser definidos na heurísitca são o parâmetro de aleatoriedade $\alpha$ e o critério de parada (GRASPmax) que geralmente é o numero de iterações da heurística. De acordo com a figura \ref{grasp}, a heurística GRASP constrói repetidamente uma solução (passo 3) e esta é melhorada por uma busca local (passo 4) e a melhor solução encontrada até o momento é armazenada (passo 6 e 7).
-
-A melhor solução encontrada ao longo de todas as interações GRASP realizadas é retornada como resultado do algoritmo de otimização GRASP \cite{SOUZA}
-
-\begin{figure}[H]
-\centering
-\includegraphics[scale = 0.8]{graficos/grasp.eps}  
-\caption{Pseudo-código da heurística GRASP}
-
-\label{grasp}
-\end{figure}
-
-Como o GRASP normalmente trata de problemas da ordem de complexidade NP-Dificil, poderia ficar indefinidamente em busca de uma solução ótima, para evitar esse caso, é preciso adotar um critério de parada na fase de busca local, por exemplo, o número máximo de iterações.
-
-\subsection{Fase Construtiva}\label{teste}
-Na fase de construção, uma solução é iterativamente construída, elemento por elemento. A cada iteração dessa fase, os próximos elementos candidatos a serem incluídos na solução são colocados em uma lista C de candidatos, seguindo um critério de ordenação pré-determinado. 
-
-O processo de seleção é baseado em uma função adaptativa gulosa g : C → R , que estima o benefício da seleção de cada um dos elementos. A heurística é adaptativa porque os benefícios associados com a escolha de cada elemento são atualizados em cada iteração da fase de construção para refletir as mudanças oriundas da seleção do elemento anterior. A componente probabilística $\alpha$ $\in$ [0,1], denominada taxa gulosa, reside no fato de que cada elemento é selecionado de forma aleatória a partir de um subconjunto restrito formado pelos melhores elementos que compõem a lista de candidatos. Este subconjunto recebe o nome de lista de candidatos restrita LCR. Essa técnica de escolha permite que diferentes soluções sejam geradas em cada iteração GRASP.
-
-O parâmetro $\alpha$ controla o nível de gulosidade e aleatoriedade na geração das soluções durante as iterações GRASP. Um valor $\alpha$ = 0 faz gerar soluções puramente gulosas, enquanto $\alpha$ = 1 faz produzir soluções totalmente aleatórias. 
-As soluções geradas pela fase de construção do GRASP provavelmente não são localmente ótimas com respeito à definição de vizinhança que adotaremos a seguir na fase de busca local. Daí a importância da fase de busca local, a qual objetiva melhorar a solução construída.
-	
-O pseudocódigo da figura \ref{construction_phase} descreve a fase de construção da Solução GRASP.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.6]{graficos/grasp_construction_phase.eps}
-
-	\caption{pseudo-código da fase de construção da heurística GRASP}
-	\label{construction_phase}
-\end{figure}
-
-\subsection{Fase de Busca Local}
-A fase de busca local está baseada na noção de vizinhança. A função N, a qual depende da estrutura do problema tratado, associa a cada solução viável s sua vizinhança N(s). Cada solução s' $\in$ N(s) é chamado de vizinho de s. É denominado movimento a modificação m que transforma uma solução s em outra s’, que esteja em sua vizinhança. Representa-se essa operação por s' $\leftarrow$ s $\in$ m. 
-Em linhas gerais, a fase de busca local, começando de uma solução obtida pela fase de construção GRASP, navega pelo espaço de pesquisa passando de uma solução para outra, que seja sua vizinha, em busca de um ótimo local. 
-A figura \ref{local_search_phase} descreve o pseudo-código de um algoritmo básico de busca local com respeito a uma certa vizinhança N(.) de s.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.6]{graficos/grasp_local_search_phase.eps}
-	\caption{pseudo-código da fase de busca local da heurística GRASP}
-	\label{local_search_phase}
-\end{figure}
-
 \section{O problema de Sequenciamento de Tarefas e suas Aplicações}
 A programação de tarefas constitui-se num alvo de pesquisa a ser buscado por fábricas de diversas designações, as quais disponham de máquinas destinadas a papéis específicos com o fim de produzir, comumente, mais de um tipo de produto e, às vezes, utilizando uma mesma máquina em alguma etapa do processo; com o objetivo de minimizar o tempo ocioso e maximizar a produtividade.
 
 Embora o nome seqüenciamento de tarefas parece sugerir que o problema seja aplicado no ramo de produção industrial, ele ocorre em variados contextos, pode ser um ambiente de aplicação do problema, por exemplo, a distribuição de médicos e enfermeiros de um hospital, turmas e professores em uma sala de aula, navios em um porto, cidades e caxeiros viajantes, etc. \cite{REIS} 
 
-% pseudocodigo com borda
-%\begin{figure}[H]
-%    \begin{center}
-%       \begin{tabular}{c} \hline
-%        \begin{lstlisting}[mathescape] 
-%	${\bf procedimento}$ GRASP (f(.), g(.), N(.), GRASPmax, s)
-%	$f^{*} \leftarrow \infty$;
-%	para (iter = 1,2, ..., GRASPmax) faca
-%		$\quad$Construcao(g(.), $\alpha$, s);
-%		$\quad$BuscaLocal(f(.), N(.), s);
-%		se (f(s) < $f^{*}$ entao
-%			$\quad s^{*} \leftarrow s$;
-%			$\quad f^{*} \leftarrow f(s)$;
-%		fim se
-%	fim para
-%	s $\leftarrow s^{*}$;
-%	retorne s;
-%	fim GRASP
-%	\end{lstlisting}\\
-%\hline
-% \end{tabular}
-% \end{center}
-%\caption{Pseudocode with a border}
-%\label{fig-pseudocod-borderless}
-%    \end{figure}
+
 
 
 %\centering\begin{tabular}{c}\border
