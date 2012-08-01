@@ -1,17 +1,18 @@
 \chapter{O processo de fabricação do aço}\label{fab_aco}
 
-Neste capitulo é descrito de forma resumido como é o processo de fabricação do aço, em especiaal o ambiente aciaria, e ainda é especificados os seus parametros para o problema de Job-Shop Scheduling
+Neste capitulo é descrito de forma resumida como é o processo de fabricação do aço, em especial o ambiente aciaria, e ainda é especificados os seus parametros para o problema de Job-Shop Scheduling
+
 \section{O processo}
 \cite{UFPR} O aço é um produto siderurgico definido como liga metálica composta principalmente de ferro e pequenas quantidades de carbono. O processo siderurgico pode ser dividido em 4 grandes partes, que são descritas abaixo:
 \begin {enumerate}
-	\item Preparo das materias-primas (coqueira e sintetização)
-	\item Produção de gusa (alto-forno)
-	\item Produção de aço (aciaria)
+	\item Preparo das materias-primas (coqueira e sintetização).
+	\item Produção de gusa (alto-forno).
+	\item Produção de aço (aciaria).
 	\item conformação mecânica (laminação)
 \end{enumerate}
 
 \subsubsection{Preparo das materias-primas}
-As matérias-primas necessárias para a obetnção do aço são: minério de ferro e o carvão mineral. Ambos não são encontrados puros na natureza, sendo necessário então um preparo nas máterias-primas de modo a reduzir o consumo de energia e aumentar a eficiencia no processo.
+As matérias-primas necessárias para a obtenção do aço são as seguintes: minério de ferro e o carvão mineral. Ambos não são encontrados puros na natureza, sendo necessário então um preparo nas máterias-primas de modo a reduzir o consumo de energia e aumentar a eficiencia no processo.
 
 \subsubsection{Coqueira e sintetização}
 A coqueificação ocorre a uma temperatura de 1300ºC em ausência de ar durante um período de 18 horas, onde ocorre a liberação de substâncias voláteis. O produto resultante desta etapa, o coque, é um material poroso com elevada resistência mecânica, alto ponto de fusão e grande quantidade de carbono.
@@ -21,10 +22,10 @@ Com a composição correta, estes elementos são levados ao forno onde a mistura
 O produto final deste processo é denominado de sínter.
 
 \subsubsection{Alto Forno}
-Esta parte do processo de fabricação do aço consiste na redução do minério de ferro, utilizando o coque metalúrgico e outros fundentes, que misturados com o minério de ferro são transformados em ferro gusa.A reação ocorre no equipamento denominado Alto Forno, e constitui uma reação exotérmica. Após a reação, o ferro gusa na forma líquida é transportado nos carros-torpedos (vagões revestidos com elemento refratário) para uma estação de dessulfuração, onde são reduzidos os teores de enxofre a níveis aceitáveis. Também são feitas análises da composição química da liga (carbono, silício, manganês, fósforo, enxofre) e a seguir o carro torpedo transporta o ferro gusa para a aciaria, onde será transformado em aço.
+Esta parte do processo de fabricação do aço consiste na redução do minério de ferro, utilizando o coque metalúrgico e outros fundentes, que misturados com o minério de ferro são transformados em ferro gusa. A reação ocorre no equipamento denominado Alto Forno, e constitui uma reação exotérmica. Após a reação, o ferro gusa na forma líquida é transportado nos carros-torpedos (vagões revestidos com elemento refratário) para uma estação de dessulfuração, onde são reduzidos os teores de enxofre a níveis aceitáveis. Também são feitas análises da composição química da liga (carbono, silício, manganês, fósforo, enxofre) e a seguir o carro torpedo transporta o ferro gusa para a aciaria, onde será transformado em aço.
 
 \subsubsection{Aciaria}
-Na aciaria, o ferro gusa é transformado em aço através da injeção de oxigênio puro sob pressão no banho de gusa líquido, dentro de um conversor. A reação, constitui na redução da gusa através da combinação dos elementos de liga existentes (silício, manganês) com o oxigênio soprado, o que provoca uma grande elevação na temperatura, atingindo aproximadamente 1700ºC.
+Na aciaria, o ferro gusa é transformado em aço através da injeção de oxigênio puro sob pressão no banho de gusa líquido, dentro de um convertedor. A reação, constitui na redução da gusa através da combinação dos elementos de liga existentes (silício, manganês) com o oxigênio soprado, o que provoca uma grande elevação na temperatura, atingindo aproximadamente 1700ºC.
 Os gases resultantes do processo são queimados logo na saída do equipamento e a os demais resíduos indesejáveis são eliminados pela escória, que fica a superfície do metal.
 Após outros ajustes finos na composição do aço, este é transferido para a próxima etapa que constitui o lingotamento contínuo. 
 
@@ -33,18 +34,18 @@ Posteriormente, os lingotes devem passar pelo processo de laminação, podendo s
 
 
 \section{O ambiente Aciaria}
-A Aciaria é local dentro de uma usina siderurgica onde existem máquinas e equipamentos voltados para o processo de transformação do ferro-gusa em diferentes tipos de aço. \cite{WIKI}
+A Aciaria é local dentro de uma usina siderurgica onde existem máquinas e equipamentos voltados para o processo de transformação do ferro-gusa em diferentes tipos de aço. \cite{IBS}
 
 A tranformação do ferro-gusa em aço envolve:
 \begin{itemize}
-\item A diminuição dos teores de carbono, silício, fósforo, enxofre e nitrogênio a níveis bastante baixos
-\item A adição de sucata ou minério de ferro para ajustar a temperatura do aço bruto
-\item O ajustes dos teores de carbono, manganês, elementos de liga e da temperatura no forno ou na panela de vazamento
+\item A diminuição dos teores de carbono, silício, fósforo, enxofre e nitrogênio a níveis bastante baixos.
+\item A adição de sucata ou minério de ferro para ajustar a temperatura do aço bruto.
+\item O ajustes dos teores de carbono, manganês, elementos de liga e da temperatura no forno ou na panela de vazamento.
 \end{itemize}
 
-O setor de aciaria compreende os convertedores (refino primário) e o refino secundário, em seguida o aço entra na fase de lingotamento. Este trabalho se limita ao Sequenciamento e Scheduling das corridas de aço apenas no setor de aciaria, ou seja, entre os processos de dessulfuração no carro torpedo e o lingotamento contínuo.
+O setor de aciaria compreende os convertedores (refino primário) e o refino secundário, em seguida o aço entra na fase de lingotamento. Este trabalho se limita ao sequenciamento e {\it Scheduling} das corridas de aço apenas no setor de aciaria, ou seja, entre os processos de dessulfuração no carro torpedo e o lingotamento contínuo.
 
-A origem dos jobs (aços) no sistema é o setor de alto-forno, através dos carros torpedos e o destino é o setor de conformação mecânica, mais precisamente o lingotamento contínuo. O algoritmo irá encontrar a melhor seqüência do jobs em cada “máquina” em função do objetivo predefinido, ou seja, a seqüência que minimiza o tempo de fabricação de
+O aço ({\it jobs}) chega na aciaria através dos carros torpedos vindo do setor do alto-forno e o destino é o setor de conformação mecânica, mais precisamente o lingotamento contínuo. O algoritmo irá encontrar a melhor seqüência do jobs em cada “máquina” em função do objetivo predefinido, ou seja, a seqüência que minimiza o tempo de fabricação de
 todos os aços a serem produzidos.
 
 O ambiente de aciaria usado nesse trabalho é apenas ilustrativo, a finalidade é fornecer o cenário para o sequenciamento da produção, ou seja, os parâmetros necessários para a resolução Problema de Job-Shop Scheduling.
@@ -52,7 +53,7 @@ O ambiente de aciaria usado nesse trabalho é apenas ilustrativo, a finalidade �
 A aciaria proposta é composta pelos seguintes recursos: Convertedores e Refino Secundário
 
 \subsubsection{Convertedores}
-O convertedor é um tipo de forno revestido com tijolos refratários que transforma o ferro usa e sucata em aço. Uma lança sopra oxigênio em alta pressão para o interior do forno produzindo reações químicas que separam as impurezas, como os gases e a escória. No convertedor ocorro o processo chamado refino primário.\cite{WIKI}
+O convertedor é um tipo de forno revestido com tijolos refratários que transforma o ferro usa e sucata em aço. Uma lança sopra oxigênio em alta pressão para o interior do forno produzindo reações químicas que separam as impurezas, como os gases e a escória. No convertedor ocorro o processo chamado refino primário.
 
 \begin{figure}[H]
 \begin{center}
