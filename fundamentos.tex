@@ -4,7 +4,8 @@ Este capítulo descreve os principais elementos teóricos utilizados no
 desenvolvimento desta pesquisa, é descrito neste capítulo um pouco da introdução histórica do problema de sequenciamento de tarefas.
 \section{Introdução ao Sequenciamento de Tarefas}\label{sec:int_seq_tarefas}
 
-A necessidade de técnicas de gestão das tarefas, tanto nos serviços quanto nas indústrias é cada vez mais crítica. Segundo \citeonline{ROLDAO}: O planejamento de operações é uma área em que se têm obtido mais progresso e cuja utilização traz mais vantagens ao gestor. O objetivo de um planejamento das operações em uma indústria, por exemplo, é gerar um comportamento coordenado, entre maquinas e tarefas, onde o resultado é satisfeito em um menor espaço de tempo e com baixo custo.
+A necessidade de técnicas de gestão das tarefas, tanto nos serviços quanto nas indústrias é cada vez mais crítica. Segundo \citeonline{ROLDAO}: O planejamento de operações é uma área em que se têm obtido mais progresso e cuja utilização traz mais vantagens ao gestor. 
+
 
 O Sequenciamento de Tarefas, ou Scheduling, também chamado por alguns autores de Calendarização, pode ser definido como um processo de decisão para uma distribuição de recursos ao longo do tempo para realizar um conjunto de tarefas, sujeito a restrições (datas limites, duração e pendência das operações, tempos de movimentação e preparação, disponibilidade e partilha de recursos) e preferências – constrangimentos relaxáveis (relacionadas com datas limite, produtividade, frequência de troca de ferramentas e estabilidade da fábrica) \cite{LEPAPE}.
 
@@ -13,9 +14,9 @@ Nos problemas de Scheduling, de um modo geral, assume-se a necessidade de execut
 
 O parâmetros para um problema de Scheduling de forma geral pode ser posto da seguinte forma:
 \begin{itemize}
-\item Existe um conjunto de k operações, O = \{$O_{1}$, $O_{2}$, ... , $O_{3}$ \}
-\item Existem um conjunto de m maquinas, P = \{ $P_{1}$, $P_{2}$, ... , $P_{m}$\}
-\item Pode haver um conjunto de s Recursos adicionais, R = \{$R_{1}$, $R_{2}$,..., $R_{s}$\}
+\item Existe um conjunto de $k$ operações, O = \{$O_{1}$, $O_{2}$, ... , $O_{k}$ \}
+\item Existem um conjunto de $m$ maquinas, P = \{ $P_{1}$, $P_{2}$, ... , $P_{m}$\}
+\item Pode haver um conjunto de $s$ Recursos adicionais, R = \{$R_{1}$, $R_{2}$,..., $R_{s}$\}
 
 \end{itemize}
 
@@ -79,9 +80,9 @@ onde,
 
 \item $y_{ij}$ é o tempo inical de processamento do Job {\it j} na máquina {\it i};
 \item $p_{ij}$ é a duração do job {\it j} na máquina {\it i}
-\item N é o conjunto de todas as operações $(i,j)$
-\item A é conjunto de todas as restrições de rotas $(i,j) \rightarrow (k,j)$
-\item m é o número total de máquinas
+\item $N$ é o conjunto de todas as operações $(i,j)$
+\item $A$ é conjunto de todas as restrições de rotas $(i,j) \rightarrow (k,j)$
+\item $m$ é o número total de máquinas
 
 \end{itemize}
 
@@ -142,7 +143,7 @@ Os algoritmos de solução podem ser classificados em duas classes:  Modelos mat
 \section{O problema de Sequenciamento de Tarefas e suas Aplicações}
 A programação de tarefas constitui-se num alvo de pesquisa a ser buscado por fábricas de diversas designações, as quais disponham de máquinas destinadas a papéis específicos com o fim de produzir, comumente, mais de um tipo de produto e, às vezes, utilizando uma mesma máquina em alguma etapa do processo; com o objetivo de minimizar o tempo ocioso e maximizar a produtividade.
 
-Embora o nome seqüenciamento de tarefas parece sugerir que o problema seja aplicado no ramo de produção industrial, ele ocorre em variados contextos, pode ser um ambiente de aplicação do problema, por exemplo, a distribuição de médicos e enfermeiros de um hospital, turmas e professores em uma sala de aula, navios em um porto, cidades e caxeiros viajantes, etc. \cite{REIS} 
+Embora o nome seqüenciamento de tarefas parece sugerir que o problema seja aplicado no ramo de produção industrial, ele ocorre em variados contextos, pode ser um ambiente de aplicação do problema, por exemplo, a distribuição de médicos e enfermeiros de um hospital, turmas e professores em uma sala de aula, navios em um porto, cidades e caxeiros viajantes, etc. \cite{REIS}
 
 
 

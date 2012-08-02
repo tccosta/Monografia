@@ -2,7 +2,7 @@
 
 Neste capitulo é descrito de forma resumida como é o processo de fabricação do aço, em especial o ambiente aciaria, e ainda é especificados os seus parametros para o problema de Job-Shop Scheduling
 
-\section{O processo}
+\section{O Processo}
 \cite{UFPR} O aço é um produto siderurgico definido como liga metálica composta principalmente de ferro e pequenas quantidades de carbono. O processo siderurgico pode ser dividido em 4 grandes partes, que são descritas abaixo:
 \begin {enumerate}
 	\item Preparo das materias-primas (coqueira e sintetização).
@@ -11,10 +11,10 @@ Neste capitulo é descrito de forma resumida como é o processo de fabricação 
 	\item conformação mecânica (laminação)
 \end{enumerate}
 
-\subsubsection{Preparo das materias-primas}
+\subsubsection{Preparo das Materias-primas}
 As matérias-primas necessárias para a obtenção do aço são as seguintes: minério de ferro e o carvão mineral. Ambos não são encontrados puros na natureza, sendo necessário então um preparo nas máterias-primas de modo a reduzir o consumo de energia e aumentar a eficiencia no processo.
 
-\subsubsection{Coqueira e sintetização}
+\subsubsection{Coqueira e Sintetização}
 A coqueificação ocorre a uma temperatura de 1300ºC em ausência de ar durante um período de 18 horas, onde ocorre a liberação de substâncias voláteis. O produto resultante desta etapa, o coque, é um material poroso com elevada resistência mecânica, alto ponto de fusão e grande quantidade de carbono.
 
 Na sinterização, a preparação do minério de ferro é feita cuidando-se da granulometria, visto que os grãos mais finos são indesejáveis pois diminuem a permeabilidade do ar na combustão, comprometendo a queima. Para solucionar o problema, adicionam-se materiais fundentes (calcário, areia de sílica ou o próprio sínter) aos grão mais finos.
@@ -33,7 +33,7 @@ Após outros ajustes finos na composição do aço, este é transferido para a p
 Posteriormente, os lingotes devem passar pelo processo de laminação, podendo ser a quente ou a frio, onde se transformarão em chapas através da diminuição da área da seção transversal.
 
 
-\section{O ambiente Aciaria}
+\section{O Ambiente Aciaria}
 A Aciaria é local dentro de uma usina siderurgica onde existem máquinas e equipamentos voltados para o processo de transformação do ferro-gusa em diferentes tipos de aço. \cite{IBS}
 
 A tranformação do ferro-gusa em aço envolve:
@@ -53,7 +53,7 @@ O ambiente de aciaria usado nesse trabalho é apenas ilustrativo, a finalidade �
 A aciaria proposta é composta pelos seguintes recursos: Convertedores e Refino Secundário
 
 \subsubsection{Convertedores}
-O convertedor é um tipo de forno revestido com tijolos refratários que transforma o ferro usa e sucata em aço. Uma lança sopra oxigênio em alta pressão para o interior do forno produzindo reações químicas que separam as impurezas, como os gases e a escória. No convertedor ocorro o processo chamado refino primário.\cite{WIKI}
+O convertedor é um tipo de forno revestido com tijolos refratários que transforma o ferro usa e sucata em aço. Uma lança sopra oxigênio em alta pressão para o interior do forno produzindo reações químicas que separam as impurezas, como os gases e a escória. No convertedor ocorro o processo chamado refino primário.
 
 \begin{figure}[H]
 \begin{center}
@@ -74,7 +74,7 @@ O convertedor é um tipo de forno revestido com tijolos refratários que transfo
 Para alcançar determinadas propriedades, o aço passa por uma etapa chamada refino secundário, onde são feitas correções em sua composição química e sua temperatura, geralmente essas correções são feitas em um forno panela.
 
 
-\begin{figure}[H]
+\begin{table}[H]
 \begin{center}
   \begin{tabular}{|c|c|c|}
     \hline
@@ -86,7 +86,7 @@ Para alcançar determinadas propriedades, o aço passa por uma etapa chamada ref
   \end{tabular}
 \end{center}
 \caption{Capacidade dos fornos panela}
-\end{figure}
+\end{table}
 
 
 %\section{Parâmetros para o  problema de Job-Shop Scheduling}

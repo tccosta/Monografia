@@ -5,7 +5,7 @@ Neste capítulo é feita uma revisão bibliografica da heurística GRASP, bem co
 \section{Introdução}
 GRASP - {\it Greedy Randomized Adaptive Search Procedure}, ou procedimento de busca adaptativa gulosa e aleatória, é uma técnica iterativa proposta por \citeonline{FEO_REZENDE} que consiste numa fase de construção de uma solução viável, na qual uma solução é gerada, elemento a elemento, e de uma fase de busca local, na qual se procura melhorar de forma iterativa a qualidade da solução encontrada anteriormente, a fase de busca local trabalha de forma iterativa através de sucessivas substituições da solução atual por uma melhor de sua vizinhança, quando não há mais soluções melhores essa fase é terminada.
 
-Na figura \ref{proc_grasp}, encontra-se um pseudocógico genérico da heurística GRASP, os parâmetros que precisam ser definidos na heurísitca são o parâmetro de aleatoriedade $\alpha$ e o critério de parada (GRASPmax) que geralmente é o numero de iterações da heurística. De acordo com a figura \ref{proc_grasp}, a heurística GRASP constrói repetidamente uma solução (passo 3) e esta é melhorada por uma busca local (passo 4) e a melhor solução encontrada até o momento é armazenada (passo 6 e 7).
+Na figura \ref{proc_grasp}, encontra-se um pseudocógico genérico da heurística GRASP, os parâmetros que precisam ser definidos na heurísitca são o parâmetro de aleatoriedade $\alpha$ e o critério de parada (GRASPmax) que geralmente é o numero de iterações da heurística. De acordo com a figura \ref{proc_grasp}, a heurística GRASP constrói repetidamente uma solução (passo 4) e esta é melhorada por uma busca local (passo 5) e a melhor solução encontrada até o momento é armazenada (passo 7 e 8).
 
 A melhor solução encontrada ao longo de todas as interações GRASP realizadas é retornada como resultado do algoritmo de otimização GRASP \cite{SOUZA}
 
@@ -33,7 +33,10 @@ A melhor solução encontrada ao longo de todas as interações GRASP realizadas
 	s $\leftarrow s^{*}$;
 	${\it retorne}$ s;
 	${\it fim}$ GRASP
-	\end{lstlisting}\\
+	
+	\end{lstlisting}
+
+\\
 \hline
  \end{tabular}
  \end{center}
