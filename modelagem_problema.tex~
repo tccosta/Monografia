@@ -64,14 +64,14 @@ A-J & CT & CV & IRUT & MLC & 361 & 297 \\ \hline
 \caption{Parâmetros de roterização na produção do aço}
 \label{desc_rota}
 \end{table}
-Legenda:
+Legenda:\\
 CT – Carro Torpedo \\
 IRUT – Forno IRUT \\				
 CV – Convertedores \\		
 MLC – Máquina de Lingotamento Contínuo \\				
 RH – Forno RH						
 
-Para resolução desse problema será considerado somente as rotas 2 e 3 da tabela acima, 
+Para resolução desse problema será considerado somente as rotas 2 e 3 da tabela acima, ou seja, será resolvido o {\it Scheduling} do aço entre os convertedores e os fornos RH e IRUT.
 
 
 

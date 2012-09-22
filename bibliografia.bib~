@@ -88,22 +88,6 @@
   urlaccessdate = {20/07/2012}
 }
 
-@misc{WIKI,
-  title = {Aciaria},
-  author = {Wikipedia},
-  year = 2011,
-  url = {http://pt.wikipedia.org/wiki/Aciaria},
-  urlaccessdate = {20/07/2012}
-}
-
-@misc{WIKIGANT,
-  title = {Gráfico de GANTT},
-  author = {Wikipedia},
-  year = 2012,
-  url = {http://pt.wikipedia.org/wiki/Diagrama$ \ $de$ \ $Gantt},
-  urlaccessdate = {20/06/2012}
-}
-
 @misc{IBS,
 	title = {Processo Siderúrgico - Fluxograma de Produção},
 	author = {Instituto Brasileiro de Siderurgia},
